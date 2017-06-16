@@ -74,6 +74,8 @@ public class BarActivity extends AppCompatActivity {
         yl.setPosition(YLabels.YLabelPosition.BOTH_SIDED);
 
         mBarChart.setData(getBarDate());
+
+        mBarChart.animateXY(3000, 3000);
     }
 
     public BarData getBarDate() {

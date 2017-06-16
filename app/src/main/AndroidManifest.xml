@@ -81,6 +81,8 @@
         </activity>
         <activity android:name=".ui.activity.BarActivity">
         </activity>
+        <activity android:name=".ui.activity.PieActivity">
+        </activity>
     </application>
 
 </manifest>

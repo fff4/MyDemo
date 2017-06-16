@@ -1,6 +1,5 @@
 package com.example.administrator.mydemo.ui.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -27,7 +26,8 @@ public class MPAndroidChatActivity extends AppCompatActivity {
     }
 
     public void pie(View view){
-
+        Intent intent = new Intent(this, PieActivity.class);
+        startActivity(intent);
     }
 
 }
