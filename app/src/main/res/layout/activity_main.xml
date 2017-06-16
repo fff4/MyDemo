@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:onClick="googlemap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="谷歌地图"/>
+
+    <Button
+        android:onClick="hunxin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="环信即时通讯"/>
+
+    <Button
+        android:onClick="mpandroidchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三方图表MPAndroidChat"/>
+
+</LinearLayout>

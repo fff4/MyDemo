@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/caidan_ss"
+        android:title="搜索"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <!--android:icon="@drawable/icon_scan"-->
+    <!--<item android:id="@+id/action_add" android:title="more"-->
+          <!--android:orderInCategory="100" app:showAsAction="always" />-->
+    <!--android:icon="@drawable/icon_plus_menu"-->
+
+    <item
+        android:id="@+id/action_item1"
+        android:title="按钮1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_item2"
+        android:title="按钮2"
+        app:showAsAction="never" />
+</menu>
